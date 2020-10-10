@@ -1,0 +1,23 @@
+{
+  "identifier": "org.ursamaris.nova.tower",
+  "name": "Tower",
+  "organization": "John Fieber",
+  "description": "Open the current workspace with the Tower Git client",
+  "version": "1.0",
+  "categories": ["commands"],
+  "repository": "https://github.com/jfieber/Tower.novaextension",
+  "bugs": "https://github.com/jfieber/Tower.novaextension/issues",
+  "license": "MIT",
+  "main": "main.js",
+  "entitlements": {
+    "process": true
+  },
+  "commands": {
+    "extensions": [
+      {
+        "title": "Open Workspace in Tower",
+        "command": "tower.runTower"
+      }
+    ]
+  }
+}
