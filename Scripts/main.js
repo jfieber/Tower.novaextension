@@ -7,7 +7,7 @@ nova.commands.register("tower.runTower", (_) => {
   }
 
   var process = new Process("/usr/bin/open", {
-    args: ["-a", "Tower", nova.workspace.path],
+    args: ["-a", "Tower", "--args", "gittower", nova.workspace.path],
   });
 
   var lines = [];
