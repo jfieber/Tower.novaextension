@@ -3,7 +3,7 @@
   "name": "Tower",
   "organization": "John Fieber",
   "description": "Open the current workspace with the Tower Git client",
-  "version": "1.2",
+  "version": "1.3",
   "categories": ["commands"],
   "repository": "https://github.com/jfieber/Tower.novaextension",
   "bugs": "https://github.com/jfieber/Tower.novaextension/issues",
